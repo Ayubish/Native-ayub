@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Native-ayub",
+    "name": "NativeEditor",
     "slug": "Native-ayub",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ayubish.Nativeayub"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "230c8714-ad01-4aef-970e-4bc8ca745ccc"
+      }
+    },
+    "owner": "ayubish"
   }
 }
